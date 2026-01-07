@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+ <center><h1>APPLICATION FORM</h1></center>
+
+ <center><p>Thank you for applying to our program. Please check the below for available job opportunities. fill in the form below to apply.</p>  </center>
+
+<div>
+ <center>
+<label>First Name:</label>
+<input type="text" placeholder="Enter your first name">
+ </center>
+ <br>
+</div>
+
+<div>
+ <center>
+<label>Email:</label>
+<input type="email" placeholder="Enter your email">
+  </center>
+  <br>
+</div>
+
+ 
+<div>
+ <center>
+<label>age : </label>
+<input type="number" placeholder="Enter your age"></div>
+ </center>
+ <br>
+</div>
+
+<div>
+ <center>
+<label>Which option describes your current role :</label>
+<select>
+  <option value="student">Student</option>
+  <option value="employed">Employed</option>
+  <option value="unemployed">Unemployed</option>
+  <option value="other">Other</option>
+</select>
+ </center>    
+  <br>
+</div>
+
+<div>
+  <center>
+  <strong>* Would you like to list references : </strong>
+
+  <label>
+    <input type="radio" name="reference" value="yes">
+    Yes
+  </label>
+
+  <label>
+    <input type="radio" name="reference" value="no">
+    No
+  </label>
+  </center>
+  <br>
+</div>
+
+<div>
+  <center>
+    <label for="job-opportunities">Select the job opportunities you are interested in:</label>
+    <select>
+      <option value="software-engineer">Software Engineer</option>
+      <option value="data-analyst">Data Analyst</option>
+      <option value="product-manager">Product Manager</option>
+      <option value="designer">Designer</option>
+    </select>
+  </center>
+  <br>
+</div>
+
+<div>
+  <center>
+<table>
+  <tr>
+    <td>
+      <strong>Which programming languages do you know?</strong>
+    </td>
+    <td>
+      <label>
+        <input type="checkbox" name="lang" value="java">
+        Java
+      </label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="python"> Python</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="javascript"> JavaScript</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="cpp"> C++</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="swift"> Swift</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="ruby"> Ruby</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <label><input type="checkbox" name="lang" value="dotnet"> .NET</label>
+    </td>
+  </tr>
+</table>
+  </center>
+  <br>
+  </div>
+
+  <section>
+    <center>
+      <label for="additional-info">Additional Information:</label>
+    <textarea>Please provide any additional information or comments here:</textarea>
+    </center>
+    <br>
+  </section>
+
+  <div>
+    <center>
+      <label for="resume">Upload your resume:</label>
+    <input type="file" id="resume" name="resume"><br>
+    <br>
+    <button type="submit">Submit Application</button>
+    </center>
+  </div>
+
+
+</body>
+</html>
