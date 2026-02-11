@@ -1,0 +1,120 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+  background: #f6f4f1;
+}
+
+/* CENTER PAGE */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN CARD */
+.login-card {
+  background: white;
+  width: 340px;
+  padding: 28px;
+
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* TITLE */
+.login-card h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+/* LABELS */
+.login-card label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* INPUTS */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+  font-size: 14px;
+}
+
+/* PASSWORD FIELD */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .eye {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+/* FORGOT PASSWORD */
+.forgot {
+  font-size: 12px;
+  text-align: right;
+  color: #777;
+  text-decoration: none;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  margin-top: 8px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 10px;
+  background: #ffcc66;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #f4bd50;
+}
+
+/* DIVIDER TEXT */
+.divider-text {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* SIGNUP BUTTON */
+.signup-btn {
+  padding: 12px;
+
+  background: transparent;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background: #f2f2f2;
+}
